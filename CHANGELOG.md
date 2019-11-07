@@ -1,9 +1,5 @@
 # Change Log
 
-All notable changes to the "go-snippets" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+2019-11-7
+    
+    加入自动更新README.md脚本，配置发布前更新一次README.md，后续不用关注片段申明。
