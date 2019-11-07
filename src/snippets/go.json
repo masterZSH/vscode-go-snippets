@@ -1,0 +1,44 @@
+{
+    "go-package": {
+        "prefix": "package",
+        "body": [
+            "package ${1}"
+        ],
+        "description": "declare go package"
+    },
+    "go-import-m": {
+        "prefix": "import-m",
+        "body": [
+            "import (",
+            "\t\"${1}\"",
+            ")"
+        ],
+        "description": "multiple packages"
+    },
+    "go-import-s": {
+        "prefix": "import-s",
+        "body": [
+            "import \"${1}\""
+        ],
+        "description": "single packages"
+    },
+    "go-func":{
+        "prefix": "func",
+        "body": [
+            "func ${1}()  {",
+            "\t${2}",
+            "}"
+        ],
+        "description": "function"
+    },
+    "go-function-main": {
+        "prefix": "main",
+        "body": [
+            "func main()  {",
+            "\t${1}",
+            "}"
+        ],
+        "description": "main function"
+    }
+
+}
