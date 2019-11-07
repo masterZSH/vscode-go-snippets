@@ -1,8 +1,16 @@
 {
 	"name": "go-snippets",
 	"displayName": "go snippets",
-	"description": "",
+	"description": "Golang snippets for vscode",
 	"version": "0.0.1",
+	"publisher": "zsh",
+	"repository": {
+		"url": "https://github.com/masterZSH/vscode-go-snippets"
+	},
+	"author": {
+		"name": "zsh",
+		"email": "z1598192958@gmail.com"
+	},
 	"engines": {
 		"vscode": "^1.39.0"
 	},
@@ -28,7 +36,7 @@
 		]
 	},
 	"scripts": {
-		"vscode:prepublish": "npm run compile & npm run readme",
+		"vscode:prepublish": "npm run readme",
 		"compile": "tsc -p ./",
 		"watch": "tsc -watch -p ./",
 		"pretest": "npm run compile",
