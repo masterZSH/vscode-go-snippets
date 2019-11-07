@@ -4,7 +4,7 @@
 	"description": "Golang snippets for vscode",
 	"version": "0.0.2",
 	"publisher": "zsh",
-	"icon": "./images/golang.png",
+	"icon": "images/golang.png",
 	"repository": {
 		"url": "https://github.com/masterZSH/vscode-go-snippets"
 	},
