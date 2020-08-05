@@ -2,7 +2,8 @@
     "go-package": {
         "prefix": "pkg",
         "body": [
-            "package ${1}"
+            "package ${1}",
+            "\t${2}"
         ],
         "description": "declare go package"
     },
