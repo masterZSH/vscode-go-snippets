@@ -23,22 +23,31 @@
         "description": "single packages"
     },
     "go-func":{
-        "prefix": "func",
+        "prefix": "f",
         "body": [
-            "func ${1}()  {",
-            "\t${2}",
+            "func ${1}() ${2} {",
+            "\t${3}",
             "}"
         ],
         "description": "function"
     },
     "go-function-main": {
-        "prefix": "main",
+        "prefix": "fm",
         "body": [
             "func main()  {",
             "\t${1}",
             "}"
         ],
         "description": "main function"
+    },
+    "go-struct": {
+        "prefix": "st",
+        "body": [
+            "type ${1} struct {",
+            "\t${2}",
+            "}"
+        ],
+        "description": "struct"
     }
 
 }

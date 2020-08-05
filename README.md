@@ -4,5 +4,6 @@
 |pkg|declare go package|
 |ims|multiple packages|
 |im|single packages|
-|func|function|
-|main|main function|
+|f|function|
+|fm|main function|
+|st|struct|
