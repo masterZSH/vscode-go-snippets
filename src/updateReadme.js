@@ -1,5 +1,8 @@
 /**
- * 更新README.md文件
+ * nodejs 脚本
+ * 
+ * 用于将go.json中的代码片段描述更新README.md文件
+ * 
  * @summary 更新readme文件
  */
 
