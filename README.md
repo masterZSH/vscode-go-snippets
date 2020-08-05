@@ -1,8 +1,8 @@
 ## Usage
 |prefix|description|
 |---|---|
-|package|declare go package|
-|import-m|multiple packages|
-|import-s|single packages|
+|pkg|declare go package|
+|ims|multiple packages|
+|im|single packages|
 |func|function|
 |main|main function|

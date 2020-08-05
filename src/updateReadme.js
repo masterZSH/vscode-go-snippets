@@ -6,7 +6,7 @@
 const fs = require('fs');
 const path = require('path');
 const process = require('process');
-const snippetsFilePath = path.resolve(__dirname, './snippets/go.json');
+const snippetsFilePath = path.resolve(__dirname, './../go.json');
 const mdFilePath = path.resolve(__dirname, '../README.md');
 process.on('uncaughtException', function (err) {
     console.log('Caught Exception:' + err);

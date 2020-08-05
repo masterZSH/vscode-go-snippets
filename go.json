@@ -1,13 +1,13 @@
 {
     "go-package": {
-        "prefix": "package",
+        "prefix": "pkg",
         "body": [
             "package ${1}"
         ],
         "description": "declare go package"
     },
     "go-import-m": {
-        "prefix": "import-m",
+        "prefix": "ims",
         "body": [
             "import (",
             "\t\"${1}\"",
@@ -16,7 +16,7 @@
         "description": "multiple packages"
     },
     "go-import-s": {
-        "prefix": "import-s",
+        "prefix": "im",
         "body": [
             "import \"${1}\""
         ],

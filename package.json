@@ -2,7 +2,7 @@
 	"name": "go-snippets",
 	"displayName": "go snippets",
 	"description": "Golang snippets for vscode",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "zsh",
 	"icon": "images/golang.png",
 	"repository": {
@@ -15,9 +15,7 @@
 	"engines": {
 		"vscode": "^1.39.0"
 	},
-	"categories": [
-		"Other"
-	],
+	"categories": ["Snippets"],
 	"activationEvents": [],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -32,7 +30,7 @@
 		"snippets": [
 			{
 				"language": "go",
-				"path": "./src/snippets/go.json"
+				"path": "go.json"
 			}
 		]
 	},
