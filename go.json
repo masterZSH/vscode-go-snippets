@@ -23,7 +23,7 @@
         ],
         "description": "single packages"
     },
-    "go-func":{
+    "go-func": {
         "prefix": "f",
         "body": [
             "func ${1}() ${2} {",
@@ -49,6 +49,15 @@
             "}"
         ],
         "description": "struct"
+    },
+    "go-error": {
+        "scope": "go,golang",
+        "prefix": "err",
+        "body": [
+            "if err != nil {",
+            "\t${0}",
+            "}"
+        ],
+        "description": "if err != nil block"
     }
-
 }

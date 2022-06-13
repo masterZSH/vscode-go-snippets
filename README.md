@@ -7,3 +7,4 @@
 |f|function|
 |fm|main function|
 |st|struct|
+|err|if err != nil block|
